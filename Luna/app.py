@@ -6,3 +6,5 @@ def create_app():
     @app.route("/")
     def root():
         return 'Hi Little Lunas'
+
+    return app
